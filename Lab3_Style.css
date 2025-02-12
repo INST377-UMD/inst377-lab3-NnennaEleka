@@ -1,0 +1,118 @@
+body {
+    background-color: rgb(245, 239, 130);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#bar {
+    text-align: center;
+    color:rgb(30, 154, 32);
+    background-color:rgb(250, 255, 250);
+    margin: auto;
+    padding: 5px;
+    width: 100%;
+    clear: both;
+}
+
+#main-nav {
+    background-color: rgb(140, 153, 221);
+    text-align: center;
+    width: 100%;
+}
+
+#main-nav li {
+    display: inline-block;
+    position: relative;
+    color: white;
+}
+
+#main-nav li a{
+    text-decoration: none;
+    color: white; /* Text color */
+    font-weight: bold;
+    display: block; /* Makes the link fill the list item */
+    padding: 10px 20px;
+}
+
+#main-nav li a:hover {
+    background-color: aliceblue;
+    color: rgb(140, 153, 221);
+}
+
+#main-nav ul ul {
+    display: none;
+    position:absolute;
+}
+
+#main-nav li:hover ul {
+    display:block;
+    position: absolute;
+    background-color:  rgb(140, 153, 221);
+    float: left;
+    padding: 0px;
+}
+
+#main-nav ul li {
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+    color:aliceblue
+}
+
+.content-area {
+    width: 70%;
+    float:left;
+    margin-left: 10px;
+    padding: 0px;
+
+}
+.content-box {
+    background-color: rgb(247, 244, 185);
+    color:black;
+    border: 2px solid rgb(140, 153, 221);
+    padding: 20px;
+    border-radius: 50px;
+    height:50%;
+    box-sizing: border-box;
+
+}
+
+#side-bar {
+    text-align: center;
+    background-color:  rgb(247, 244, 185);
+    float: right;
+    width: 25%;
+    height:50%;
+    border: 2px solid rgb(140, 153, 221);
+    border-radius: 50px;
+    margin-right: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#side-bar:hover {
+    background-color: rgb(140, 153, 221);
+}
+
+#side-bar ul {
+    list-style-position: inside; /* Moves bullets inside the text area */
+    padding-left: 0; /* Removes default padding */
+    margin-left: 0; /* Aligns with container */
+    text-align: center; /* Centers text */
+}
+
+
+.main-container {
+    border: 2px solid rgb(140, 153, 221);
+    width: 98%;
+    height: 100%;
+    margin-bottom: 5px;
+    align-items:center;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+#name:focus{
+    width: 250px;
+}
+
