@@ -93,6 +93,14 @@ body {
     background-color: rgb(140, 153, 221);
 }
 
+#side-bar ul {
+    list-style-position: inside; /* Moves bullets inside the text area */
+    padding-left: 0; /* Removes default padding */
+    margin-left: 0; /* Aligns with container */
+    text-align: center; /* Centers text */
+}
+
+
 .main-container {
     border: 2px solid rgb(140, 153, 221);
     width: 98%;
